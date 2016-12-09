@@ -16,6 +16,7 @@ namespace Emlak.DAL
             :base("name=EmlakCon")
         {
         }
+
         public virtual DbSet<Konut> Konutlar{ get; set; }
         public virtual DbSet<Fotograf> Fotograflar{ get; set; }
         public virtual DbSet<IlanTuru> IlanTurleri{ get; set; }
